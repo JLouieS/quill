@@ -21,9 +21,10 @@ import Clipboard from './modules/clipboard.js';
 import History from './modules/history.js';
 import Keyboard from './modules/keyboard.js';
 import Uploader from './modules/uploader.js';
-import Delta, { Op, OpIterator, AttributeMap } from 'quill-delta';
+import Delta from 'quill-delta';
 import Input from './modules/input.js';
 import UINode from './modules/uiNode.js';
+const { Op, OpIterator, AttributeMap } = Delta;
 
 export { default as Module } from './core/module.js';
 export { Delta, Op, OpIterator, AttributeMap, Parchment, Range };
