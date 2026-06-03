@@ -6,6 +6,14 @@
   "homepage": "https://quilljs.com",
   "main": "dist/quill.js",
   "module": "dist/quill.js",
+  "exports": {
+    ".": {
+      "require": "./dist/quill.js",
+      "default": "./dist/quill.js"
+    }
+  },
+  "files": ["dist"],
+  "type": "commonjs",
   "dependencies": {
     "eventemitter3": "^5.0.1",
     "lodash-es": "^4.17.21",
