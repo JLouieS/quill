@@ -4,12 +4,12 @@
   "description": "Your powerful, rich text editor",
   "author": "Jason Chen <jhchen7@gmail.com>",
   "homepage": "https://quilljs.com",
-  "main": "dist/quill.js",
-  "module": "dist/quill.js",
+  "main": "dist/dist/quill.js",
+  "module": "dist/dist/quill.js",
   "exports": {
     ".": {
-      "require": "./dist/quill.js",
-      "default": "./dist/quill.js"
+      "require": "./dist/dist/quill.js",
+      "default": "./dist/dist/quill.js"
     }
   },
   "files": ["dist"],
@@ -83,6 +83,7 @@
     "defaults"
   ],
   "scripts": {
+    "prepare": "./scripts/build production",
     "build": "./scripts/build production",
     "lint": "run-s lint:*",
     "lint:eslint": "eslint .",
