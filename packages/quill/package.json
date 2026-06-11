@@ -76,7 +76,7 @@
     "defaults"
   ],
   "scripts": {
-    "prepare": "./scripts/build production",
+    "prepare": "npm run build",
     "build": "./scripts/build production",
     "lint": "run-s lint:*",
     "lint:eslint": "eslint .",
