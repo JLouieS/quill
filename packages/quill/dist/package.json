@@ -4,7 +4,7 @@
   "description": "Your powerful, rich text editor",
   "author": "Jason Chen <jhchen7@gmail.com>",
   "homepage": "https://quilljs.com",
-  "main": "dist/quill.js",
+  "main": "dist/dist/quill.js",
   "files": ["dist"],
   "type": "commonjs",
   "dependencies": {
